@@ -13,11 +13,10 @@ print('Tu esi izvēlējies uzdevumu nr. ')
 Izvele = input()
 
 if Izvele == '1':
-  pirmais()\
-  
-  
-  
-  global score
+  pirmais()
+
+
+global score
     still_guessing = True
     attempt = 0
     while still_guessing and attempt < 3:
@@ -45,5 +44,12 @@ check_guess(guess4, "ja")
 
 print("Your Score is "+ str(score))
 
-ff
-d
+
+print('ievadi 5 skaitļus no -10 lidz 10' )
+count = 0
+for i in range(5):
+  num = eval(input('Enter a number: '))
+  
+print('your numbers are.')
+print(num)
+
