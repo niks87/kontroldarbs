@@ -33,3 +33,6 @@ guess4 = input("vai tev patik programmet? ")
 check_guess(guess4, "ja")
 
 print("Your Score is "+ str(score))
+
+
+raimond gay
